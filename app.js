@@ -1,7 +1,10 @@
+require("./xyz");
+const calculateSum = require("./sum");
 var fname = "Namaste Node JS";
 var a = 10;
 var b = 20;
 // console.log(fname);
-// console.log(a + b);
+console.log(a + b);
 // console.log(global);
-console.log(this);
+// console.log(this);
+calculateSum(2, 4);
