@@ -1,5 +1,5 @@
 require("./xyz");
-const calculateSum = require("./sum");
+const obj = require("./sum");
 var fname = "Namaste Node JS";
 var a = 10;
 var b = 20;
@@ -7,4 +7,5 @@ var b = 20;
 console.log(a + b);
 // console.log(global);
 // console.log(this);
-calculateSum(2, 4);
+obj.calculateSum(2, 4);
+console.log(obj.x);
